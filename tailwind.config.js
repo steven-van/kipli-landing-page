@@ -14,6 +14,10 @@ module.exports = {
         "ocean-blue": "#2c525a",
         orange: "#B85E4C",
       },
+      fontFamily: {
+        "avenir-heavy": ["Avenir-Heavy"],
+        "avenir-medium": ["Avenir-Medium"],
+      },
     },
   },
   plugins: [],
