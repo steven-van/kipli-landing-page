@@ -17,6 +17,8 @@ module.exports = {
       fontFamily: {
         "avenir-heavy": ["Avenir-Heavy"],
         "avenir-medium": ["Avenir-Medium"],
+        "mackinac-pro-medium": ["P22-Mackinac-Pro-Medium"],
+        "mackinac-regular": ["P22-Mackinac-Regular"],
       },
     },
   },

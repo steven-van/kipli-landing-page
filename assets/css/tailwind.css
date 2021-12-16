@@ -10,3 +10,14 @@
   font-family: "Avenir-Medium";
   src: url("../fonts/Avenir/Avenir-Medium.ttf");
 }
+
+@font-face {
+  font-family: "P22-Mackinac-Pro-Medium";
+  src: url("../fonts/P22-Mackinac/P22-Mackinac-Pro-Medium.otf");
+}
+
+@font-face {
+    font-family: "P22-Mackinac-Regular";
+    src: url("../fonts/P22-Mackinac/P22-Mackinac-Regular.otf");
+  }
+  
