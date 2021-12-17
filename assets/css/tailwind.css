@@ -17,7 +17,11 @@
 }
 
 @font-face {
-    font-family: "P22-Mackinac-Regular";
-    src: url("../fonts/P22-Mackinac/P22-Mackinac-Regular.otf");
-  }
-  
+  font-family: "P22-Mackinac-Regular";
+  src: url("../fonts/P22-Mackinac/P22-Mackinac-Regular.otf");
+}
+
+@font-face {
+  font-family: "P22-Mackinac-Pro-Bold";
+  src: url("../fonts/P22-Mackinac/P22-Mackinac-Pro-Bold.otf");
+}
