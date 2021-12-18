@@ -14,6 +14,7 @@ module.exports = {
         "ocean-blue": "#2c525a",
         orange: "#B85E4C",
         forest: "#2A555A",
+        "dark-forest": "#305157",
         "light-blue": "#5ACAC3",
       },
       fontFamily: {
