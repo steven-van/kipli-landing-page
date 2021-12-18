@@ -34,3 +34,48 @@
 .banner-hero {
   background: url("../hero-img.png") no-repeat center / cover;
 }
+
+.container {
+  width: 1920px;
+}
+
+.arrow-hero {
+  background: url("../arrow.svg") no-repeat center / contain;
+}
+.container-sub {
+  width: 90%;
+}
+
+.latex-matelas {
+  background: url("../mattress.png") no-repeat center / cover;
+}
+.bg-cta {
+  background: url("../plants-left.svg") no-repeat -5px 10% / 113px 116px,
+    url("../plants-right.svg") no-repeat right 45% / 112px 136px,
+    url("../circle.svg") no-repeat center center / 1018px auto;
+}
+.bg-cta::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 375px;
+  width: 100px;
+  background: url("../form.svg") no-repeat left top / auto 100%;
+  z-index: -1;
+}
+
+.text-section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.circle-arrow {
+  background: url("../circle-arrow.svg") no-repeat center / contain;
+}
