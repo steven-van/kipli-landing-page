@@ -16,6 +16,7 @@ module.exports = {
         forest: "#2A555A",
         "dark-forest": "#305157",
         "light-blue": "#5ACAC3",
+        cyan: "#2DC2BB",
       },
       fontFamily: {
         "avenir-heavy": ["Avenir-Heavy"],
@@ -23,6 +24,7 @@ module.exports = {
         "mackinac-pro-medium": ["P22-Mackinac-Pro-Medium"],
         "mackinac-regular": ["P22-Mackinac-Regular"],
         "mackinac-pro-bold": ["P22-Mackinac-Pro-Bold"],
+        "brownhill-script": ["Brownhill-Script"],
       },
     },
   },

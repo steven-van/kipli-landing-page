@@ -25,3 +25,12 @@
   font-family: "P22-Mackinac-Pro-Bold";
   src: url("../fonts/P22-Mackinac/P22-Mackinac-Pro-Bold.otf");
 }
+
+@font-face {
+  font-family: "Brownhill-Script";
+  src: url("../fonts/Brownhill-Script.ttf");
+}
+
+.banner-hero {
+  background: url("../hero-img.png") no-repeat center / cover;
+}
