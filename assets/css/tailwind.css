@@ -54,20 +54,23 @@
 .latex-matelas {
   background: url("../mattress.png") no-repeat center / cover;
 }
-.bg-cta {
-  background: url("../plants-left.svg") no-repeat -5px 10% / 113px 116px,
-    url("../plants-right.svg") no-repeat right 45% / 112px 136px,
-    url("../circle.svg") no-repeat center center / 1018px auto;
-}
-.bg-cta::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 375px;
-  width: 100px;
-  background: url("../form.svg") no-repeat left top / auto 100%;
-  z-index: -1;
+
+@media (min-width: 1024px) {
+  .bg-cta {
+    background: url("../plants-left.svg") no-repeat -5px 10% / 113px 116px,
+      url("../plants-right.svg") no-repeat right 45% / 112px 136px,
+      url("../circle.svg") no-repeat center center / 1018px auto;
+  }
+  .bg-cta::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 375px;
+    width: 100px;
+    background: url("../form.svg") no-repeat left top / auto 100%;
+    z-index: -1;
+  }
 }
 
 .text-section::after {

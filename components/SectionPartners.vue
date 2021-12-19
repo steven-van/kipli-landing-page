@@ -1,9 +1,13 @@
 <template>
   <div class="flex flex-col items-center container-sub m-auto mb-16">
-    <p class="font-mackinac-pro-medium text-4xl text-dark-green mb-24">
+    <p
+      class="font-mackinac-pro-medium text-2xl lg:text-4xl text-dark-green mb-12 lg:mb-24"
+    >
       Ils nous font confiance
     </p>
-    <div class="flex items-center flex-wrap justify-between">
+    <div
+      class="grid grid-cols-2 justify-items-center items-center md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6"
+    >
       <div class="px-8 mb-8" v-for="(item, index) in imgItems" :key="index">
         <img :src="require(`~/assets/${item.url}`)" :alt="item.alt" />
       </div>
@@ -31,7 +35,7 @@ export default {
           url: "les-jardins-de-mala.png",
           alt: "Jardin de Mala",
         },
-        { url: "h8.png", alt: "H8", width: "195px" },
+        { url: "h8.png", alt: "H8" },
         { url: "la-butte.png", alt: "La Butte" },
         {
           url: "bain-de-foret.png",

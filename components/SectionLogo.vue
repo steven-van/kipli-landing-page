@@ -1,5 +1,8 @@
 <template>
-  <div class="m-auto flex justify-between pt-16 pb-20" style="width: 93%">
+  <div
+    class="m-auto grid grid-cols-2 justify-items-center gap-y-12 justify-center md:grid-cols-3 xl:grid-cols-5 pt-16 pb-20"
+    style="width: 93%"
+  >
     <LogoItem
       v-for="(item, index) in logoItems"
       :key="index"

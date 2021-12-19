@@ -1,19 +1,24 @@
 <template>
   <div class="relative py-12 box-border banner-hero flex justify-center">
-    <div class="hidden lg:block absolute right-0 top-0 mr-44 mt-16 lg:w-1/3">
+    <div
+      class="hidden lg:block absolute right-0 top-0 mr-24 xl:mr-44 mt-16 lg:w-1/4 xl:w-1/3"
+    >
       <div
-        class="font-mackinac-pro-medium text-center text-5xl text-ocean-blue"
+        class="font-mackinac-pro-medium text-center lg:text-4xl xl:text-5xl text-ocean-blue"
       >
         <div>Pour les professionnels</div>
         <div
-          class="arrow-hero hidden lg:block w-16 h-16"
+          class="arrow-hero hidden 2xl:block w-16 h-16"
           style="position: absolute; left: 90px; bottom: -37px"
         ></div>
         <div>et l’hôtellerie</div>
       </div>
     </div>
     <div class="container-sub">
-      <div style="width: 476px" class="flex flex-col items-center">
+      <div
+        style="width: 476px"
+        class="flex flex-col items-center mx-auto lg:mx-0"
+      >
         <div class="w-60 mb-6">
           <img src="~/assets/kipli-logo.svg" alt="Kipli Logo" />
         </div>

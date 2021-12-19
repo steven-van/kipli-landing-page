@@ -4,11 +4,15 @@
     class="rounded-b flex flex-col"
   >
     <div class="width: 541px; height: 304px;">
-      <img :src="require(`~/assets/${img.url}`)" :alt="img.alt" />
+      <img
+        :src="require(`~/assets/${img.url}`)"
+        :alt="img.alt"
+        class="w-full"
+      />
     </div>
     <div class="flex-1 flex flex-col justify-between px-8 py-7">
       <div class="flex justify-between">
-        <p class="font-mackinac-pro-bold text-3xl text-forest mb-7">
+        <p class="font-mackinac-pro-bold text-xl lg:text-2xl text-forest mb-7">
           {{ title }}
         </p>
         <div class="flex space-x-3.5">
@@ -28,14 +32,15 @@
           class="flex items-center"
         >
           <div class="w-5"><img src="~/assets/check.svg" /></div>
-          <p class="font-mackinac-pro-medium text-2xl ml-4">
+          <p class="font-mackinac-pro-medium text-lg lg:text-xl ml-4">
             {{ text }}
           </p>
         </div>
       </div>
 
-      <p class="text-right text-lg font-avenir-medium text-light-blue">
-        À partir de <span class="font-avenir-heavy text-xl">{{ price }}€</span>
+      <p class="text-right lg:text-lg font-avenir-medium text-light-blue">
+        À partir de
+        <span class="font-avenir-heavy text-lg lg:text-xl">{{ price }}€</span>
       </p>
     </div>
   </div>
