@@ -12,6 +12,11 @@
 }
 
 @font-face {
+  font-family: "Avenir-Roman";
+  src: url("../fonts/Avenir/Avenir-Roman.ttf");
+}
+
+@font-face {
   font-family: "P22-Mackinac-Pro-Medium";
   src: url("../fonts/P22-Mackinac/P22-Mackinac-Pro-Medium.otf");
 }
