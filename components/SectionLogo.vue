@@ -1,6 +1,16 @@
 <template>
   <div
-    class="m-auto grid grid-cols-2 justify-items-center gap-y-12 justify-center md:grid-cols-3 xl:grid-cols-5 pt-16 pb-20"
+    class="
+      m-auto
+      grid grid-cols-1
+      justify-items-center
+      gap-y-12
+      justify-center
+      md:grid-cols-3
+      xl:grid-cols-5
+      pt-16
+      pb-20
+    "
     style="width: 93%"
   >
     <LogoItem
