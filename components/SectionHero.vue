@@ -16,7 +16,7 @@
     </div>
     <div class="container-sub">
       <div
-        style="width: 476px"
+        style="max-width: 476px"
         class="flex flex-col items-center mx-auto lg:mx-0"
       >
         <div class="w-60 mb-6">

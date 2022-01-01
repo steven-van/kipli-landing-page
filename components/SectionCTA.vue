@@ -13,7 +13,10 @@
         hébergement ayant pris des mesures éco-responsables. Proposez une
         alternative saine et durable à vos hôtes en adoptant la literie Kipli !
       </p>
-      <button class="py-3 bg-orange px-28 text-white font-avenir-heavy text-xl">
+      <button
+        style="max-width: 90%"
+        class="py-3 bg-orange px-28 text-white font-avenir-heavy text-xl"
+      >
         Obtenir un devis
       </button>
     </div>
